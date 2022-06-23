@@ -240,6 +240,10 @@ button {
   align-items: center;
 }
 
+.container-wide {
+  max-width: 1536px;
+}
+
 .story__content {
   margin-right: 30px;
   max-width: 580px;
@@ -286,7 +290,4 @@ button {
 }
 .story-video-overlay.hidden {
   opacity: 0;
-}
-
-.story__video-img {
 }
