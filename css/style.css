@@ -407,3 +407,38 @@ button {
   margin-bottom: 40px;
   max-width: 530px;
 }
+
+/*footer*/
+
+.footer {
+  background-color: #245852;
+  padding: 105px 0 144px;
+}
+
+.footer__logo {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 74px;
+}
+
+.footer__nav {
+}
+
+.footer__list {
+}
+
+.footer__list-item + .footer__list-item {
+  margin-top: 60px;
+}
+
+.footer__list-link {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.footer__list-link:hover {
+  opacity: 0.7;
+}
