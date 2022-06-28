@@ -7,6 +7,7 @@
     <title>Alivio</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
     <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
   </head>
@@ -31,11 +32,34 @@
               >Start Trial</a
             >
           </div>
+          <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
         </div>
       </div>
     </header>
 
-    <main class="main">
+    <div class="mobile-nav">
+      <img class="mobile-nav-logo" src="./img/header/logo.svg" alt="" />
+
+      <nav class="mobile-nav-list">
+        <ul>
+          <li><a href="#">Why Alivio</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-login">
+        <a href="#!" class="header__login-link">Sign in</a>
+        <a href="#!" class="header__login-link header__login-link--green"
+          >Start Trial</a
+        >
+      </div>
+    </div>
+
+    <!-- <main class="main">
       <section class="home">
         <div class="container">
           <div class="home__inner">
@@ -146,7 +170,7 @@
                   <img src="./img/play-white.svg" alt="" />
                 </button>
               </div>
-              <!-- ДОБАВИТЬ ВИДЕО -->
+            
               <img
                 src="./img/story/video-cover.jpg"
                 alt=""
@@ -204,9 +228,9 @@
           </div>
         </div>
       </section>
-    </main>
+    </main> -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer__inner">
           <img class="footer__logo" src="./img/footer/footer-logo.svg" alt="" />
@@ -228,7 +252,7 @@
           </nav>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <script src="./js/main.js"></script>
   </body>
