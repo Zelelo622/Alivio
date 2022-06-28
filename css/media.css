@@ -1,4 +1,8 @@
 @media (max-width: 1199px) {
+  .btn {
+    padding: 15px 40px;
+  }
+
   .header__inner {
     justify-content: space-between;
   }
@@ -78,5 +82,21 @@
     transform: rotate(-45deg);
     top: 0;
     transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+  }
+
+  .home {
+    padding: 40px 0;
+    min-height: unset;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0 100%),
+      url(../img/home/home-bg.jpg);
+  }
+
+  .home__title {
+    font-size: 45px;
+    line-height: 44px;
+  }
+
+  .home__text {
+    margin-bottom: 30px;
   }
 }
