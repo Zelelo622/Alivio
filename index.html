@@ -151,7 +151,7 @@
         </div>
       </section>
 
-      <!-- <section class="story">
+      <section class="story">
         <div class="container container-wide">
           <div class="story__inner">
             <div class="story__content">
@@ -165,23 +165,27 @@
             </div>
 
             <div class="story__video">
-              <div class="story__video-overlay">
-                <button class="story__video-btn">
-                  <img src="./img/play-white.svg" alt="" />
+              <div class="story__video-overlay" id="video-story-overlay">
+                <button class="story__video-btn" id="video-story-btn">
+                  <img id="video-story-btn-icon" width="82" height="82" src="./img/play-white.svg" alt="" />
                 </button>
               </div>
+
+              <video class="story__video-obj" id="video-story">
+                <source src="./video/video-story.mp4" type="video/mp4">
+              </video>
             
-              <img
+              <!-- <img
                 src="./img/story/video-cover.jpg"
                 alt=""
                 class="story__video-img"
-              />
+              /> -->
             </div>
           </div>
         </div>
       </section>
 
-      <section class="product">
+      <!-- <section class="product">
         <div class="container">
           <div class="product__inner">
             <div class="product__img-wrapper">

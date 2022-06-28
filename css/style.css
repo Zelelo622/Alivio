@@ -292,8 +292,13 @@ button {
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 0.2s ease;
 }
-.story-video-overlay.hidden {
+.story__video-overlay.hidden {
   opacity: 0;
+}
+.story__video-obj {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
 }
 
 /*product*/
