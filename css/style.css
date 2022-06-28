@@ -306,7 +306,7 @@ button {
   display: flex;
 }
 
-.img-wrapper {
+.product__img-wrapper {
   position: relative;
   margin-right: 86px;
   padding-left: 60px;

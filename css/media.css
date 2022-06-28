@@ -1,3 +1,33 @@
+@media (max-width: 1389px) {
+  .works {
+    padding: 60px 0 30px;
+  }
+
+  .works__header {
+    padding-bottom: 52px;
+    flex-direction: column;
+  }
+
+  .works____header-subtitle {
+    line-height: 130%;
+    font-size: 40px;
+  }
+
+  .works__header-content {
+    padding-top: 20px;
+  }
+
+  .works__items {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .works__item:nth-child(2),
+  .works__item:nth-child(3) {
+    padding-top: 0;
+  }
+}
+
 @media (max-width: 1199px) {
   .btn {
     padding: 15px 40px;
