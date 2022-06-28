@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #424242;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.sign-in {
+  background: linear-gradient(90deg, #a7d1c5, #65a895);
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.sign-in__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.screen {
+  border-radius: 18px;
+  height: 600px;
+  width: 360px;
+  background: linear-gradient(90deg, #f3f7f5, #dae4e1);
+  box-shadow: 0px 0px 24px #10664e;
+}
+
+.login {
+  width: 320px;
+  padding: 30px;
+  padding-top: 156px;
+}
+
+.login__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-user {
+  position: absolute;
+  top: 30px;
+}
+
+.icon-psw {
+  position: absolute;
+  top: 30px;
+}
+
+.login__submit {
+  background: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #c2d1cd;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #45a88b;
+  box-shadow: 0px 2px 2px #3f9179;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.login__submit:hover {
+  border-color: #84aba0;
+  outline: none;
+}
