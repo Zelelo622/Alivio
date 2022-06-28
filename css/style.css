@@ -309,6 +309,7 @@ button {
 
 .product__inner {
   display: flex;
+  justify-content: space-between;
 }
 
 .product__img-wrapper {
@@ -320,6 +321,8 @@ button {
 
 .product__img {
   border-radius: 18px;
+  max-width: 100%;
+  height: auto;
 }
 
 .product__card {
