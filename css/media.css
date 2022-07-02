@@ -1,4 +1,26 @@
 @media (max-width: 1389px) {
+  .btn,
+  .mobile-nav-list li a,
+  .header__login-link,
+  .footer__list-link {
+    transition: all 0s;
+  }
+
+  .btn:hover,
+  .header__login-link:hover {
+    opacity: 1;
+  }
+
+  .mobile-nav-list li a:hover {
+    opacity: 1;
+    color: #292929;
+  }
+
+  .footer__list-link:hover {
+    opacity: 1;
+    color: #fff;
+  }
+
   .works {
     padding: 60px 0 30px;
   }
